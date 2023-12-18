@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.attribution{
+    font-size: 1.5rem;
+}
+.attribution a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
+}
+.container{
+    height: 250px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: start;
+    box-shadow: 5px 10px 20px 1px hsl(222, 56%, 80%);
+
+    
+
+    
+}
+
+.left-column{
+        height: 250px;
+        width: 170px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;
+        background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
+        color: hsl(0, 0%, 100%);
+        
+        
+}
+.points{
+        height: 60em;
+        width: 60em;
+        background-image: linear-gradient(to bottom , hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0));
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+h2{
+    font-size: 1.5rem;
+}
+.points h3{
+    font-size: 3.5rem;
+    
+    
+}
+.points h4{
+    font-size: 1rem;
+    color: hsl(223, 7%, 81%);
+    font-weight: lighter;
+    
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5em;
+}
+.message h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.message p{
+    text-align: center;
+    font-weight: lighter;
+    color: hsl(223, 7%, 81%);;
+}
+
+/*//////////////////////////////////////*/
+
+.right-column{
+height: 250px;
+width: 170px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 5%;
+
+}
+.right-column h2{
+    margin-left: 15px;
+}
+.snip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 147px;
+    padding: 8px;
+    border-radius: 3px;
+}
+.snip img{
+    height: 10px;
+    
+}
+.snip p{
+        
+        font-size: 1rem;
+        
+}
+.snip span{
+    font-size: 1rem;
+    margin-right: 5px;
+    color: hsl(0, 2%, 32%);
+}
+.snip h5{
+    font-size: 1rem;
+    margin-right: 40px;
+
+
+}
+
+.right-column a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50px;
+
+}
+a:hover{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
+}
+.reaction{
+    background-color: hsla(0, 94%, 69%, 0.096);;
+}
+.reaction h5{
+    color: hsl(0, 100%, 67%);
+    
+}
+.memory{
+    background-color: hsl(39, 100%, 56%, 0.096);
+}
+.memory h5{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color: hsl(166, 100%, 37%, 0.096);
+}
+.verbal h5{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsl(234, 85%, 45%,0.096);
+}
+.visual h5{
+        color: hsl(234, 85%, 45%);
+}
+
+
+
+
+
